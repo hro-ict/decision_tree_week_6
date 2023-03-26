@@ -72,7 +72,7 @@ function trainModel(data) {
         if (decisionTree.predict(testData[i]) == testData[i][trainingLabel]) {
             correctPredictions+=1
             console.log("juist")
-
+///confusion matrix
             if (decisionTree.predict(testData[i])==1){
                 console.log("Positief TRUE")
               positive_true+=1
